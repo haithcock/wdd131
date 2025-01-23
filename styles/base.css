@@ -116,13 +116,13 @@ main {
     margin: 20px;
 }
 
-.card-01 {
+.card1 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr auto auto;
 }
 
-.card-01 {
+.card1 {
     grid-column: 1;
     grid-row: 1;
     padding: 20px;
@@ -131,7 +131,7 @@ main {
     text-align: center;
 }
 
-.card-01 h2 {
+.card1 h2 {
     grid-row: 1;
     font-size: 26px;
     color: var(--heading-font);
@@ -190,7 +190,7 @@ text-align: left;
     margin: auto;
     text-align: left;
 }
-.card-02 {
+.card2 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto 1fr;
@@ -203,29 +203,29 @@ text-align: left;
     text-align: center;
 }
 
-.card-02 h2 {
+.card2 h2 {
     grid-row: 1;
     font-size: 26px;
     color: var(--heading-font);
     background-color: var(--headline-color-on-white);
 }
 
-.card-02 p {
+.card2 p {
     color: var(--paragraph-color-on-color);
 }
 
-.card-02 div {
+.card2 div {
     grid-row: 2;
     margin: 20px;
 }
 
-.card-02 ul {
+.card2 ul {
     color: black;
     padding: 0;
     text-align: left;
 }
 
-.card-01, .card-02 {
+.card1, .card2 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
