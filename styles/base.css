@@ -246,7 +246,14 @@ footer p {
     margin: 0;
     padding: 0;
 }
+
 img[src="images/快.jpeg"] {
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; 
+    height: auto;
 }
+
+.card img[src="images/快.jpeg"] {
+    width: 200px; 
+    height: auto; 
+}
+
