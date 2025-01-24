@@ -19,12 +19,17 @@ h1 {
 }
 
 main {
-	display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main h2 {
+    grid-column: span 2;
 }
 
 h2 {
 	color: navy;
-	text-align: center;
+	text-align: left;
 }
 
 article p {
