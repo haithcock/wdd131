@@ -11,7 +11,55 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles/base.css">
-  <script src="scripts/getdates.js" defer></script>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/places.js" defer></script>
   <title>WDD 131 - Dynamic Web Fundamentals - Dakota Raul Hancock</title>
 </head>
+
+
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>United States of America</h1>
+        <picture>
+    <source srcset="images/bears-desktop.jpg" media="(min-width: 768px)">
+    <source srcset="images/bears-mobile.jpg" media="(max-width: 767px)">
+    <img src="images/bears.jpg" alt="A beautiful view of bears">
+</picture>
+    </header>
+
+    <!-- Data Section -->
+    <section class="data">
+        <h2>Data</h2>
+        <ul>
+    <li><strong>Area:</strong> 9,834,000 sq km</li>
+    <li><strong>Population:</strong> 331,893,745</li>
+    <li><strong>Capital:</strong> Washington, D.C.</li>
+    <li><strong>Languages:</strong> English</li>
+    <li><strong>Currency:</strong> US Dollar (USD)</li>
+    <li><strong>Time Zones:</strong> UTC-4 to UTC-10</li>
+    <li><strong>Calling Code:</strong> +1</li>
+    <li><strong>Internet TLD:</strong> .us</li>
+</ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+        <h2>Weather</h2>
+        <ul>
+    <li><strong>Temperature:</strong> <span id="temperature">69°F</span></li>
+    <li><strong>Conditions:</strong> <span id="conditions">Lit</span></li>
+    <li><strong>Wind:</strong> <span id="wind">Blowing</span></li>
+    <li><strong>Wind Chill:</strong> <span id="windChill">Chillin</span></li>
+</ul>
+    </section>
+
+    <!-- Footer -->
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> 🇺🇸 Dakota Raul Hancock 🇺🇸 USA
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
