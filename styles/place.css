@@ -20,13 +20,21 @@ body {
 }
 
 /* Data Section */
+/* Data Section */
 .data {
-    background-color: white;
-    margin: 10px auto;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ffffff;
+    color: #2a502c;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .data h2 {
@@ -45,17 +53,22 @@ body {
     font-size: 14px;
     text-align: center;
 }
-
 /* Weather Section */
 .weather {
-    background-color: white;
-    margin: 10px auto;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ffffff;
+    color: #2a502c;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 .weather h2 {
     color: #d9272e;
     text-align: center;
@@ -94,14 +107,18 @@ footer p {
     font-size: 12px;
 }
 
-/* Mobile Styles */
+
+/* Media Query for Mobile Devices */
 @media (max-width: 767px) {
     .data, .weather {
+        position: static;
+        margin: 10px auto;
         width: 90%;
+        text-align: center;
     }
 
-    footer {
-        position: static;
+    .data ul li, .weather ul li {
+        font-size: 14px;
     }
 }
 
