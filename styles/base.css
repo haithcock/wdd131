@@ -209,7 +209,7 @@ text-align: left;
     padding: 10px 20px;
     border-radius: 8px;
     color: var(--heading-font);
-    background-color: var(--headline-color-on-white);
+   /* background-color: var(--headline-color-on-white);*/
 }
 
 .card2 p {
