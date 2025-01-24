@@ -1,4 +1,4 @@
-/* Mobile Styling */
+/* General Styles */
 body {
     background-color: #2a502c;
     font-family: Arial, sans-serif;
@@ -6,16 +6,12 @@ body {
     padding: 0;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
     background-color: #d9272e;
     color: white;
-    padding: 10px;
-}
-
-.hero h1 {
-    margin: 0;
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .hero img {
@@ -23,32 +19,66 @@ body {
     height: auto;
 }
 
-.data, .weather {
+/* Data Section */
+.data {
     background-color: white;
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
 }
 
-.data h2, .weather h2 {
-    margin-top: 0;
+.data h2 {
     color: #d9272e;
     text-align: center;
 }
 
-ul {
+.data ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-ul li {
+.data ul li {
     margin: 5px 0;
-    text-align: center;
     font-size: 14px;
+    text-align: center;
 }
 
+/* Weather Section */
+.weather {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.weather h2 {
+    color: #d9272e;
+    text-align: center;
+}
+
+.weather img {
+    display: block;
+    margin: 10px auto;
+}
+
+.weather ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.weather ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Footer */
 footer {
     text-align: center;
     background-color: #d9272e;
@@ -64,11 +94,10 @@ footer p {
     font-size: 12px;
 }
 
-
 /* Mobile Styles */
 @media (max-width: 767px) {
     .data, .weather {
-        width: 90%; /* Narrower layout for mobile */
+        width: 90%;
     }
 
     footer {
@@ -79,11 +108,11 @@ footer p {
 /* Desktop Styles */
 @media (min-width: 768px) {
     .hero {
-        padding: 40px; /* Larger padding for desktop */
+        padding: 40px;
     }
 
     .data, .weather {
-        width: 60%; /* Wider layout for desktop */
+        width: 60%;
         margin: 20px auto;
     }
 
