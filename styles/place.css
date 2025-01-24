@@ -124,7 +124,7 @@ footer p {
     }
 }
 
-/* Desktop Styles */
+/* Desktop Styles 
 @media (min-width: 768px) {
     .hero {
         padding: 40px;
@@ -141,3 +141,4 @@ footer p {
         width: 100%;
     }
 }
+*/
