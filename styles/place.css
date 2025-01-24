@@ -32,8 +32,8 @@ body {
     position: absolute;
     top: 30px;
     left: 30px;
-    width: 70px
-    height 225px;
+    width: 70px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -67,7 +67,7 @@ body {
     top: 20px;
     right: 20px;
     width: 70px;
-    height: 225px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
