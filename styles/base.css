@@ -206,6 +206,8 @@ text-align: left;
 .card2 h2 {
     grid-row: 1;
     font-size: 26px;
+    padding: 10px 20px;
+    border-radius: 8px;
     color: var(--heading-font);
     background-color: var(--headline-color-on-white);
 }
