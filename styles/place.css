@@ -63,3 +63,33 @@ footer p {
     margin: 5px 0;
     font-size: 12px;
 }
+
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .data, .weather {
+        width: 90%; /* Narrower layout for mobile */
+    }
+
+    footer {
+        position: static;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .hero {
+        padding: 40px; /* Larger padding for desktop */
+    }
+
+    .data, .weather {
+        width: 60%; /* Wider layout for desktop */
+        margin: 20px auto;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
