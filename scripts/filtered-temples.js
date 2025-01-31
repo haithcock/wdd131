@@ -1,4 +1,3 @@
-
 const hambutton = document.querySelector('#menu');
 
 menu.addEventListener('click', () => {
@@ -190,5 +189,3 @@ function createTempleCard(filteredTemples, pagename) {
 	})
 }
 
-    });
-  });
