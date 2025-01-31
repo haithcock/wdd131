@@ -161,7 +161,7 @@ function createTempleCard(filteredTemples, pagename) {
 	// Add page Title
 	// let pagename = "Home Page";
 	let h2Title = document.createElement("h2");
-	h2Title.innerHTML = `<h2 class="stdlf">${pagename}</h2>`;
+	h2Title.innerHTML = `<h2 class="h2class">${page}</h2>`;
 	document.querySelector("#pagename").appendChild(h2Title);
 
 	// Foreach temple in the temples Array, do the following
