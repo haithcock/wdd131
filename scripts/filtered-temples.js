@@ -1,22 +1,15 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const hamburger = document.getElementById("hamburger");
-    const navMenu = document.querySelector("nav ul");
 
+const hambutton = document.querySelector('#menu');
 
-    
-  
-    // Hamburger menu functionality
-    hamburger.addEventListener("click", () => {
-      if (navMenu.style.display === "block") {
-        navMenu.style.display = "none";
-        hamburger.textContent = "☰";
-      } else {
-        navMenu.style.display = "block";
-        hamburger.textContent = "✖";
-      }
+menu.addEventListener('click', () => {
 
+	toggleMenuButton();
+});
 
-      
+function toggleMenuButton() {
+	menu.classList.toggle('show');
+	layout.classList.toggle('show');
+};	
       const temples = [
         {
           templeName: "Aba Nigeria",
