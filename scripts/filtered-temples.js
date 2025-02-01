@@ -72,8 +72,7 @@ function toggleMenuButton() {
           dedicated: "1985, December, 14-15",
           area: 28057,
           imageUrl:
-          "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-46602.jpg"
-          
+          "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22308-thumb.jpg"          
         },
         {
           templeName: "Raleigh North Carolina",
