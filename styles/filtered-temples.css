@@ -93,7 +93,7 @@ header h1 {
     }
 
     .card img {
-    width: 300;
-    height: 345;
+    width: 225px;
+    height: auto;
     border-radius: 10px;
 }
