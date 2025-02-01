@@ -54,7 +54,9 @@ main {
 figure {
     margin: 10px 0;
 }
-
+body {
+    background-color: #181A1B;
+}
 
 
 footer {
@@ -83,7 +85,7 @@ header h1 {
 .card {
         margin: .5rem auto;
         padding: .5rem;
-        background-color: rgb(61, 54, 160);
+        background-color: rgb(74, 69, 153);
         border: 1px black solid;
         text-align: center;
         max-width: 450px;
