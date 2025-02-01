@@ -93,7 +93,7 @@ header h1 {
     }
 
     .card img {
-        max-width: 100%;
-        height: auto;
+        width: 275px;
+        height: 175px;
         border-radius: 10px;
     }
