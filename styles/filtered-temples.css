@@ -91,3 +91,9 @@ header h1 {
         line-height: 1.5;
         border-radius: 10px;
     }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
