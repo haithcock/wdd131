@@ -10,6 +10,10 @@
 --accent2-color: #59656fff;
 --accent3-color: #1d1e2cff;
 
+--heading-font: 'Roboto', sans-serif;
+--paragraph-font: 'Roboto', sans-serif;
+
+
 --headline-color-on-white: var(--primary-color); 
 --headline-color-on-color: var(--accent3-color); 
 --paragraph-color-on-white: var(--primary-color);
@@ -25,13 +29,14 @@ body {
     font-size: 24px;
     margin: 0;
     padding: 0;
-    font-family: var(--paragraph-font);
+
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     margin: 0;
     padding: 0 ;
+    background-color: var(--accent1-color);
 }
 
 p {
