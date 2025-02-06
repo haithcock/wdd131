@@ -21,7 +21,7 @@
 --nav-hover-background-color: var(--primary-color);
 }
 body {
-    background-color: white;
+    background-color: var(--primary-color);
     font-size: 24px;
     margin: 0;
     padding: 0;
