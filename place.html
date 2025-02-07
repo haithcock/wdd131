@@ -13,6 +13,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="styles/place.css">
   <script src="scripts/places.js" defer></script>
+  <script src="scripts/getdatestwo.js" defer></script>
   <title>WDD 131 - Dynamic Web Fundamentals - Dakota Raul Hancock</title>
 </head>
 
@@ -20,12 +21,12 @@
 <body>
     <!-- Hero Section -->
     <header class="hero">
-        <h1>United States of America</h1>
-        <picture>
-    <source srcset="images/bears-desktop.webp" media="(min-width: 768px)">
-    <source srcset="images/bears-mobile.webp" media="(max-width: 767px)">
-    <img src="images/bears.webp" alt="A beautiful view of bears">
-</picture>
+             <h1>United States of America</h1>
+             <picture>
+         <source srcset="images/bears-desktop.webp" media="(min-width: 768px)">
+         <source srcset="images/bears-mobile.webp" media="(max-width: 767px)">
+         <img src="images/bears-default.webp" alt="A beautiful view of bears">
+         </picture>
     </header>
 
     <!-- Data Section -->
@@ -43,15 +44,14 @@
     </ul>
     </section>
 
-    <!-- Weather Section -->
 <!-- Weather Section -->
     <section class="weather">
         <h2>Weather</h2>
-        <img src="images/sun.svg" alt="Sunny" style="width: 50px; height: 50px;">
+        <img src="images/sun.svg" alt="Sunny">
         <ul>
-            <li><strong>Temperature:</strong> <span id="temperature">69°F</span></li>
+            <li><strong>Temperature in °F:</strong> <span id="temperature">69</span></li>
             <li><strong>Conditions:</strong>Lit</li>
-            <li><strong>Wind:</strong> <span id="wind">Blowing</span></li>
+            <li><strong>Wind in mph:</strong> <span id="wind">10</span></li>
             <li><strong>Wind Chill:</strong> <span id="windChill">Chillin</span></li>
         </ul>
     </section>
