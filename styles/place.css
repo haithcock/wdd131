@@ -33,7 +33,7 @@ body {
     top: 30px;
     left: 30px;
     width: 250px; /* Fixed reasonable width */
-    height: 225px; /* Fixed height */
+    height: auto; /* Fixed height */
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -124,21 +124,35 @@ footer p {
     }
 }
 
-/* Desktop Styles 
-@media (min-width: 768px) {
-    .hero {
-        padding: 40px;
-    }
+        /* Desktop Styles 
+        @media (min-width: 768px) {
+            .hero {
+                padding: 40px;
+            }
 
-    .data, .weather {
-        width: 60%;
-        margin: 20px auto;
-    }
+            .data, .weather {
+                width: 60%;
+                margin: 20px auto;
+            }
 
-    footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+            footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        }
+        */
+body {
+    background-color: var(--secondary-color);
 }
-*/
+
+.hero {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.hero h1::after {
+    content: " 🇺🇸";
+    font-size: 20px;
+    margin-left: 10px;
+}
