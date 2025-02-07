@@ -1,4 +1,11 @@
-/* General Styles */
+:root {
+    --primary-color: #d9272e;
+    --text-color: white;
+    --background-color: #2a502c;
+    --border-color: #ffffff;
+}
+
+    /* General Styles */
 body {
     background-color: #2a502c;
     font-family: Arial, sans-serif;
@@ -9,7 +16,7 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    background-color: #d9272e;
+    --background-color: #2a502c;
     color: white;
     padding: 20px;
 }
@@ -148,7 +155,7 @@ footer p {
 
 
 .hero {
-    background-color: var(--primary-color);
+    --background-color: #2a502c;
     color: var(--text-color);
 }
 
