@@ -51,6 +51,7 @@ nav a:hover {
 
 main {
     padding: 20px;
+    padding-bottom: 60px;
 }
 
 figure {
@@ -59,7 +60,7 @@ figure {
 
 
 
-footer {
+/*footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -70,7 +71,25 @@ footer {
     bottom: 0;
     height: 45px;
     margin-top: 5vh;
+}*/
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 27px;
+    margin-top: 5vh;
+    clear: both;
 }
+
+footer p {
+    margin: 0px 0;
+    font-size: 12px;
+}
+
 header h1 {
     margin: 0;
     padding: 10px 0;
