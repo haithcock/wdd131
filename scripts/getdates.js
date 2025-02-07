@@ -3,6 +3,5 @@ let lastModified = document.lastModified;
 let author = "🇺🇸 Dakota Raul Hancock 🇺🇸 USA";
 let place = "United States of America";
 
-
-document.getElementById("currentyear").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
+document.getElementById("copywrite").innerHTML = `\u00A9 ${yr} | ${author} | ${place}`;
+document.getElementById("modified").innerHTML = `Last Modified: ${lastModified}`;

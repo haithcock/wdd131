@@ -52,23 +52,23 @@ body {
 
 
 header {
-    background-color: var(--back_color1);
+    background-color: var(--accent3-color);
     padding: 1rem;
     color: white;
-    border: 5px solid var(--back_color1);
+    border: 5px solid var(--accent3-color);
 }
 
 main {
     position: relative;
     padding: 1rem;
-    background-color: var(--accent_color2);
+    background-color: var(--accent1_color);
     min-width: 400px;
 }
 
 footer {
     padding: 1rem;
     color: white;
-    background-color: var(--back_color1);
+    background-color: var(--accent3-color);
     text-align: center;
 }
 
