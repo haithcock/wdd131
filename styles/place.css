@@ -64,7 +64,7 @@ body {
 /* Weather Section */
 .weather {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #ffffff;
+    border: 2px solid var(--border-color);
     color: #2a502c;
     font-weight: bold;
     margin: 10px;
@@ -103,10 +103,10 @@ body {
     text-align: center;
 }
 
-/* Footer */
+    /* Footer */
 footer {
     text-align: center;
-    background-color: #d9272e;
+    background-color:var(--primary-color);
     color: white;
     padding: 6px;
     position: fixed;
