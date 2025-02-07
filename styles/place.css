@@ -46,7 +46,7 @@ body {
 }
 
 .data h2 {
-    color: #d9272e;
+    --primary-color: #d9272e;
     text-align: center;
 }
 
@@ -79,7 +79,7 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .weather h2 {
-    color: #d9272e;
+    --primary-color: #d9272e;
     text-align: center;
 }
 
