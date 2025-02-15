@@ -5,7 +5,7 @@ const resources = [
     { name: "Khan Academy", category: "Learning Platforms", link: "https://www.khanacademy.org" },
     { name: "DeepSeek AI", category: "AI Tools", link: "https://www.deepseek.com/" },
     { name: "ChatGPT", category: "AI Tools", link: "https://chatgpt.com/" },
-    { name: "Z-Library", category: "Digital Libraries", link: "https://z-lib.is" },
+    { name: "Z-Library", category: "Digital Libraries", link: "https://z-library.sk" },
     { name: "Claude", category: "AI Tools", link: "https://claude.ai/"},
     { name: "W3Schools", category: "Learning Platforms", link: "https://www.w3schools.com/"},
     { name: "MIT OpenCourseWare", category: "Learning Platforms", link: "https://ocw.mit.edu/"},
