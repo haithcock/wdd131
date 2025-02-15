@@ -15,6 +15,7 @@
     
 
         <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/storage.js" defer></script>
 
         <title>Landing Page for final project - Dakota Raul Hancock</title>
     </head>
@@ -32,6 +33,11 @@
             
         </nav>
         <main>
+            <div class="progress">
+                <section id="progress-section">
+                    <!-- Progress will be dynamically inserted here by JavaScript -->
+                </section>
+            </div>
             <div class="howto">
             <section>
                 <h2>How We Learn and Why It Matters</h2>
@@ -41,9 +47,18 @@
             <section>
                 <h2>How to Learn Effectively</h2>
                 <ul>
-                    <li><strong>Spaced Repetition:</strong> Review material over increasing intervals to improve long-term retention.</li>
-                    <li><strong>Active Recall:</strong> Test yourself regularly to reinforce learning and identify gaps in knowledge.</li>
-                    <li><strong>Immersion:</strong> Surround yourself with the subject matter through practice, media, and real-world applications.</li>
+                    <li>
+                        <strong>Spaced Repetition:</strong> Review material over increasing intervals to improve long-term retention.
+                        <button onclick="markTopicCompleted('Spaced Repetition')">Mark as Completed</button>
+                    </li>
+                    <li>
+                        <strong>Active Recall:</strong> Test yourself regularly to reinforce learning and identify gaps in knowledge.
+                        <button onclick="markTopicCompleted('Active Recall')">Mark as Completed</button>
+                    </li>
+                    <li>
+                        <strong>Immersion:</strong> Surround yourself with the subject matter through practice, media, and real-world applications.
+                        <button onclick="markTopicCompleted('Immersion')">Mark as Completed</button>
+                    </li>
                 </ul>
             </section>
             </div>
