@@ -1,3 +1,5 @@
+@media screen and (min-width: 600px) {
+    /* Adjust the layout for larger screens */
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -79,26 +81,6 @@ nav a:hover {
     background: #ddd;
     border-radius: 5px;
 }
-/* Search Bar Styling */
-#search {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #0078d7;
-    border-radius: 5px;
-    font-size: 1rem;
-    outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#search:focus {
-    border-color: #005bb5;
-    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
-}
-
-#search::placeholder {
-    color: #999;
-}
 
 footer {
     grid-column: 1 / 3;
@@ -114,33 +96,4 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
-}
-.filters {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.filters button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #0078d7;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.filters button:hover {
-    background-color: #005bb5;
-    transform: translateY(-2px);
-}
-
-.filters button:active {
-    transform: translateY(0);
-}
-
-.filters button.active {
-    background-color: #004080; /* Darker blue for active state */
 }

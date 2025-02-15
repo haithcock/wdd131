@@ -6,16 +6,17 @@
         <meta name="description" content="WDD 131 - final project - Dakota Raul Hancock">
         <meta name="author" content="Dakota Hancock">
         <meta name="keywords" content="Dakota, Hancock">
-    
+  
         <link rel="stylesheet" href="styles/final.css">
+        <link rel="stylesheet" href="styles/final-large.css">
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    
-        <script src="scripts/form.js" defer></script>
+
         <script src="scripts/getdates.js" defer></script>
-        <script src="schools.js" defer></script>
+
+        <script src="scripts/resources.js" defer></script>
         <title>Resources Page for final project - Dakota Raul Hancock</title>
     </head>
     <body>
@@ -23,16 +24,27 @@
             <h1>Subject-Specific Learning & Resources</h1>
             <p>Discover platforms, tools, and resources to enhance your learning journey.</p>
         </header>
-
-        <nav class="sidebar-nav">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="highered.html">Higher Education</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
-        </nav>
-
+        <nav>
+           
+            <a href="home.html">Home</a>
+             <a href="highered.html">Higher Education</a>
+             <a href="resources.html">Resources</a>
+         
+         
+     </nav>
         <main>
+            <!-- Add filter buttons -->
+            <div class="filters">
+                <button id="filterAll">Show All</button>
+                <button id="filterLearning">Learning Platforms</button>
+                <button id="filterAI">AI Tools</button>
+                <button id="filterLibraries">Digital Libraries</button>
+            </div>
+
+
+
+<!-- Add search bar -->
+<input type="text" id="search" placeholder="Search resources...">
             <!-- Learning Platforms Section -->
             <div class="resourcesection">
                 <h2>Learning Platforms</h2>
@@ -93,14 +105,27 @@
 
             <!-- Language Learning Section -->
             <div class="language-learning">
-                <h2>Language Learning Platforms</h2>
+                <h2>Language Learning Resources</h2>
                 <section class="lang1">
-                    <h3>Duolingo</h3>
-                    <p>Learn languages for free. <a href="https://www.duolingo.com" target="_blank">Visit Duolingo</a></p>
+                    <h3>Language Exchange Meetups</h3>
+                    <p>Join local or virtual language exchange groups to practice speaking with native speakers. Websites like <a href="https://www.meetup.com" target="_blank">Meetup</a> often have language exchange events.</p>
                 </section>
                 <section class="lang2">
-                    <h3>Babbel</h3>
-                    <p>Practical language learning. <a href="https://www.babbel.com" target="_blank">Visit Babbel</a></p>
+                    <h3>Textbooks and Workbooks</h3>
+                    <p>Invest in comprehensive language textbooks and workbooks, such as those from the "Assimil" or "Colloquial" series, which provide structured lessons and exercises.</p>
+                    <a href="https://routledgetextbooks.com/textbooks/colloquial/" target="_blank">Colloquial website</a>
+                </section>
+                <section class="lang3">
+                    <h3>Private Tutoring</h3>
+                    <p>Hire a professional language tutor for personalized lessons. Platforms like <a href="https://www.italki.com" target="_blank">iTalki</a> connect learners with qualified tutors.</p>
+                </section>
+                <section class="lang4">
+                    <h3>Immersion Programs</h3>
+                    <p>Consider enrolling in immersion programs abroad or locally, where you can fully immerse yourself in the language and culture.</p>
+                </section>
+                <section class="lang5">
+                    <h3>Why Gamified Apps Like Duolingo Are Not Recommended</h3>
+                    <p>While apps like Duolingo are popular, they often lack depth and practical application. They focus heavily on gamification, which can make learning feel more like a game than a serious study. This approach often results in superficial knowledge without the ability to hold meaningful conversations or understand complex texts. Additionally, these apps rarely provide sufficient speaking practice or cultural context, which are crucial for true language proficiency. For serious learners, structured lessons, real-world practice, and immersion are far more effective.</p>
                 </section>
             </div>
         </main>
